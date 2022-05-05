@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap');
+
+
+
+
+
+
+
+* {
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+  
+}
+
+
+body { 
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url('images/University 2.jpg');
+}
+
+.header {
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+  overflow: hidden;
+  background-color: #8694d9;
+  padding: 20px 10px;
+  box-shadow: 2px 3px 2px 3px;
+  
+}
+
+.header a {
+  float: left;
+  color: rgb(3, 3, 3);
+  text-align: center;
+  padding: 7px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.header-right a:hover {
+  font-weight: bold;
+  color: black;
+ 
+}
+
+.header a.active {
+  background-color: rgb(23, 27, 31);
+  color: white;
+  margin: 1px;
+}
+
+.header-right {
+  float: right;
+  margin-top:-80px;
+}
+
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    text-decoration: none;
+    text-align: left;
+    
+  }
+  
+  .header-right {
+    float: none;
+  }
+}
+
+.nav  {
+    background-color: rgb(255, 255, 255); 
+    list-style-type: none;
+    text-align: center;
+   
+    padding: 0;
+    box-shadow: 2px 3px 2px 3px;
+  }
+  
+  .nav h1 {
+    display: inline-block;
+    font-size: 20px;
+    padding: 0px;
+    
+  }
+
+
+  
+
+  
+
+ 
+
+
+  .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #ffffff;
+    margin: 75px;
+    margin-top: 150px ;
+    border-radius: 50px;
+    padding: 50px;
+    justify-content: center;
+    box-shadow: 2px 3px 2px 3px;
+    
+    
+   
+    /* position - ; */
+  }
+  
+  .flex-container  {
+    
+    display: flex;
+    min-height: 35vh;
+  justify-content: center;
+  align-items: center;
+    
+
+  }
+
+  a, u {
+    text-decoration: none;
+  }
+
+  button{
+    appearance: none;
+    background: none;
+    border: none;
+    outline: none;
+  
+    padding: 20px 40px;
+    border-radius: 8px;
+    color: #212121;
+    font-size: 28px;
+    font-weight: 600;
+    margin: 0 15px 15px  15px;
+    cursor: pointer;
+    
+
+    color: #FFF;
+    background-color: #68A0DE;
+    box-shadow:inset 0 -8px 0 0 rgba(0,0,0,0.17);
+    transition: 0.1s;
+    text-shadow: 0px 3px rgba(0,0,0,0.17);
+    background-position: 0% 0%;
+    
+  }
+  button:hover {
+    box-shadow:inset 0 -6px 0 0 rgba(0,0,0,0.17);
+    text-shadow: 0px 2px rgba(0,0,0,0.17);
+    
+  }
+
+  button:active {
+    box-shadow:inset 0 0px 0 0 rgba(0,0,0,0.17);
+    text-shadow: 0px 0px rgba(0,0,0,0.17);
+  }
+  
+  
+  
+  
+ 
